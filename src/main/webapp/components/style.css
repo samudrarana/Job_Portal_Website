@@ -1,0 +1,66 @@
+.custom-background{
+	background :#068FFF ;
+	font-family:Arial,sans-serif;
+}
+.navbar .nav-item .nav-link{
+	font-size: 20px;
+	color: white;
+}
+.navbar .nav-item:hover .nav-link{
+	background: #AEE2FF;
+	color:black;
+	border-radius: 5px;
+}
+.footer-container{
+	padding: 0;
+}
+h1{
+	 font-size: 5rem;
+	 color:#068FFF;
+	 font-family:  Georia;
+	 text-shadow: 1px 1px 1px #000000f5;
+}
+h2{
+	font-size: 4rem;
+	color:#0A6EBD;
+	font-family:  Georia;
+	text-shadow: 1px 1px 1px #000000f5;
+}
+.publish-btn{
+	background-color:#0A6EBD
+}
+
+/* Additional CSS code for the right-side content */
+.right-content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-align: center;
+}
+
+.right-content h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.right-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.right-content .btn {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.right-content .btn:hover {
+  background-color: #0066cc;
+}
+
